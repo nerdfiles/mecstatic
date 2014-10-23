@@ -1,17 +1,50 @@
 /**
+ * Icon Semantics
+ */
+@import 'http://localhost:8008/bower_components/font-awesome/css/font-awesome.min.css';
+@import 'cursor';
+
+/**
  * Mobile Toolbar
  */
 .mobile--toolbar {
-  position: fixed;
-  left: 5%;
-  top: 5%;
-  color: #FFD454;
-  .sidebar-opener {}
+  position : fixed;
+  left     : 5%;
+  top      : 5%;
+  color    : #FFD454;
+  .sidebar-opener {
+    @extend .context-menu;
+  }
 }
 
 /**
  * Mobile Sidebar
  */
 .mobile--sidebar {
-  background: #fff;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQUlEQVQYlWOwO3X+v92p8/8ZCAGiFWIDD27Y/X9ww46wZqIVYgUV5+3+V5wnQjfRCrGBTzPj/n+aGUdYM9EKsQEAvrAs3dt7J2YAAAAASUVORK5CYII=);
+  ul {
+   -webkit-flex-direction  : column;
+   flex-direction          : column;
+   -webkit-justify-content : flex-start;
+   justify-content         : flex-start;
+  }
+  li {
+  }
+  img {
+    border-bottom: 1px #c1c1c1 solid;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+  a {
+    background:   #f9f9f9;
+    padding       : 1em 0 1em .5em;
+    border-bottom : 1px #c1c1c1 solid;
+    display       : block;
+  }
+  .cam {
+    .fa {
+      margin-right: 1em;
+    }
+  }
 }
