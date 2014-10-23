@@ -1,0 +1,12 @@
+HTTrack3.48-3 launched on Thu, 23 Oct 2014 17:10:31 at http://www.mecstatic.com/
+(httrack http://www.mecstatic.com/ )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:10:32	Warning: 	Note: due to www.mecstatic.com remote robots.txt rules, links beginning with these path will be forbidden: /admin, /cart, /checkout, /success (see in the options to disable this)
+
+HTTrack Website Copier/3.48-3 mirror complete in 16 seconds : 37 links scanned, 36 files written (456955 bytes overall) [154840 bytes received at 9677 bytes/sec], 456955 bytes transferred using HTTP compression in 36 files, ratio 28%
+(No errors, 1 warnings, 0 messages)
