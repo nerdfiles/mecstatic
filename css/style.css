@@ -1,0 +1,18 @@
+/**
+ * Mobile Toolbar
+ */
+/* line 4, style.scss */
+.mobile--toolbar {
+  position: fixed;
+  left: 5%;
+  top: 5%;
+  color: #FFD454;
+}
+
+/**
+ * Mobile Sidebar
+ */
+/* line 15, style.scss */
+.mobile--sidebar {
+  background: #fff;
+}
