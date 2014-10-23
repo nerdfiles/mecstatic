@@ -4,7 +4,7 @@
 
 ### Demo
 
-1. ``$ servethis 8008``
+1. ``$ servethis 8008 # or $ cd project/dir && python -c 'import SimpleHTTPServer; SimpleHTTPServer.test()'``
 2. ``$ open http://localhost:8008/www.mecstatic.com/``
 
 ### Develop
