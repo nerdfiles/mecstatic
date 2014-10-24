@@ -23,6 +23,8 @@ Or:
 
 ## Test
 
+### End-to-End Test with CasperJS
+
 1. Sidebar test: https://github.com/nerdfiles/mecstatic/blob/develop/test/e2e/sidebar.png
 2. Body test: https://github.com/nerdfiles/mecstatic/blob/develop/test/e2e/body.jpg
 
