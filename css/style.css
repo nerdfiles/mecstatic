@@ -170,7 +170,10 @@
   position: fixed;
   left: 5%;
   top: 5%;
-  color: #FFD454;
+}
+/* line 14, style.scss */
+.mobile--toolbar .sidebar-opener {
+  border-bottom: none;
 }
 
 /**
@@ -180,28 +183,21 @@
 .mobile--sidebar {
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQUlEQVQYlWOwO3X+v92p8/8ZCAGiFWIDD27Y/X9ww46wZqIVYgUV5+3+V5wnQjfRCrGBTzPj/n+aGUdYM9EKsQEAvrAs3dt7J2YAAAAASUVORK5CYII=);
 }
-/* line 25, style.scss */
-.mobile--sidebar ul {
-  -webkit-flex-direction: column;
-  flex-direction: column;
-  -webkit-justify-content: flex-start;
-  justify-content: flex-start;
-}
-/* line 33, style.scss */
+/* line 29, style.scss */
 .mobile--sidebar img {
   border-bottom: 1px #c1c1c1 solid;
   margin: 0;
   padding: 0;
   display: block;
 }
-/* line 39, style.scss */
+/* line 35, style.scss */
 .mobile--sidebar a {
   background: #f9f9f9;
   padding: 1em 0 1em .5em;
   border-bottom: 1px #c1c1c1 solid;
   display: block;
 }
-/* line 46, style.scss */
+/* line 42, style.scss */
 .mobile--sidebar .cam .fa {
   margin-right: 1em;
 }
