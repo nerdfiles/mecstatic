@@ -2,7 +2,7 @@ x = require('casper').selectXPath
 casper = require('casper').create {
   verbose: true
   logLevel: 'debug'
-  timeout: 20000
+  timeout: 30000
   pageSettings: {
     loadImages:  true
     loadPlugins: false
@@ -24,6 +24,14 @@ casper.then () ->
       $sidebarOpener = document.querySelector sel
       return $sidebarOpener
     , '.sidebar-opener')
+
+casper.then () ->
+  this.capture('initial.jpg', undefined, {
+      format: 'jpg',
+      quality: 75
+  })
+
+casper.wait 1000
 
 casper.then () ->
   this.thenClick '.sidebar-opener'
