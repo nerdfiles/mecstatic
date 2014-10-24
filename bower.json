@@ -1,0 +1,27 @@
+{
+  "name": "mecstatic",
+  "version": "0.0.0",
+  "homepage": "http://www.mecstatic.com/",
+  "authors": [
+    "nerdfiles <nerdfiles@gmail.com>"
+  ],
+  "description": "Adding a sidebar via Bower.",
+  "keywords": [
+    "sidebar"
+  ],
+  "license": "WTFPL",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "~4.2.0",
+    "jquery-ui": "~1.11.2",
+    "jquery": "~2.1.1",
+    "simple-sidebar": "~1.1.0"
+  }
+}
